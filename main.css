@@ -5373,7 +5373,7 @@ textarea::-webkit-scrollbar {
     transition: all 0.15s ease-in-out;
 }
 .contextMenu-HLZMGh .item-1Yvehc:hover {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
     color: #fff;
 }
 .contextMenu-HLZMGh .item-1Yvehc.brand-3igrJY {
@@ -5430,7 +5430,7 @@ textarea::-webkit-scrollbar {
     color: rgba(255,255,255,0.7);
 }
 .menu-3sdvDG {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
 }
 .menu-3sdvDG .item-1tOPte {
     color: rgba(255,255,255,0.7);
@@ -5444,7 +5444,7 @@ textarea::-webkit-scrollbar {
     color: var(--main-color);
 }
 .menu-3sdvDG .colorDanger-2qLCe1 {
-    color: #f04747;
+    color: var(--danger-color);
 }
 .menu-3sdvDG .focused-3afm-j.colorDanger-2qLCe1 {
     background-color: var(--danger-color);
@@ -5527,7 +5527,7 @@ textarea::-webkit-scrollbar {
     stroke-opacity: 0.7 !important;
 }
 .layer-v9HyYc .themedPopout-1TrfdI {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -5549,7 +5549,7 @@ textarea::-webkit-scrollbar {
     -webkit-animation: cv-menu-fold-y 0.2s cubic-bezier(0.2, 0.6, 0.5, 1.1);
     animation: cv-menu-fold-y 0.2s cubic-bezier(0.2, 0.6, 0.5, 1.1);
     transform-origin: 50% 0;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -5780,7 +5780,7 @@ textarea::-webkit-scrollbar {
     transform: none !important;
 }
 .popout-2iWAc- > .container-3ayLPN {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     -webkit-animation: cv-menu-fold-y 0.2s cubic-bezier(0.2, 0.6, 0.5, 1.1) 0.1s backwards;
     animation: cv-menu-fold-y 0.2s cubic-bezier(0.2, 0.6, 0.5, 1.1) 0.1s backwards;
@@ -6004,18 +6004,25 @@ textarea::-webkit-scrollbar {
     background-color: transparent;
     color: rgba(255,255,255,0.1);
 }
+.drawerSizingWrapper-17Mss4 {
+    min-width: 430px;
+}
 .contentWrapper-SvZHNd {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.emojiPicker-3PwZFl {
+    background-color: rgba(0,0,0,0.8);
+    min-width: 430px;
 }
 .navButtonActive-1MkytQ {
     background-color: var(--main-color);
 }
 .searchBar-5di9mG {
-    background-color: rgba(255,255,255,0.05);
-    box-shadow: 0 0 0 2px rgba(255,255,255,0.07);
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.12);
     margin-top: 2px;
 }
 .searchBar-5di9mG:focus-within {
@@ -6040,7 +6047,7 @@ textarea::-webkit-scrollbar {
 .diversitySelectorPopout-3FiGaM {
     border: none;
     padding: 2px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
 }
 .diversitySelectorPopout-3FiGaM .diversityEmojiItem-L6_IXw {
     border-radius: 3px;
@@ -6048,9 +6055,6 @@ textarea::-webkit-scrollbar {
 }
 .diversitySelectorPopout-3FiGaM .diversityEmojiItem-L6_IXw:hover {
     background-color: rgba(255,255,255,0.07);
-}
-.theme-dark .header-ywPcAE {
-    background-color: transparent;
 }
 .emojiItem-14v6tW {
     border-radius: 3px;
@@ -6061,13 +6065,16 @@ textarea::-webkit-scrollbar {
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
     background-color: rgba(255,255,255,0.07);
 }
-.emojiItem-14v6tW.disabled-1H1CfW {
+.emojiItem-14v6tW.emojiItemDisabled-1FvFuF {
     -webkit-filter:grayscale(1) blur(1px);
     filter:grayscale(1) blur(1px);
 }
-.emojiItem-14v6tW.selected-39BZ4S.disabled-1H1CfW {
+.emojiItem-14v6tW.emojiItemDisabled-1FvFuF.emojiItemSelected-1aLkfV {
     -webkit-filter:grayscale(1);
     filter:grayscale(1);
+}
+.emojiItem-14v6tW:focus {
+    outline: var(--main-color) auto 1px;
 }
 .theme-dark .imageLoading-bpSr0M {
     background-image: none;
@@ -6075,16 +6082,17 @@ textarea::-webkit-scrollbar {
 .none-2Eo-qx::-webkit-scrollbar {
     width: 0 !important;
 }
-.wrapper-2Gsate {
+.categoryList-2Kzf65 {
     background-color: transparent;
 }
-.wrapper-2Gsate .categoryItemDefaultCategorySelected-_HCKoz,
-.wrapper-2Gsate .guildIcon-3h-1IH {
+.guildIcon-3h-1IH {
     background-color: transparent;
 }
-.wrapper-2Gsate .categoryItemDefaultCategorySelected-_HCKoz:hover,
-.wrapper-2Gsate .guildIcon-3h-1IH:hover {
+.categoryItem-1D0nxC:hover {
     background-color: rgba(255,255,255,0.07);
+}
+.categoryItem-1D0nxC.categoryItemDefaultCategorySelected-_HCKoz {
+    background-color: rgba(255,255,255,0.1);
 }
 .unicodeShortcut-15J8Ck {
     background-color: var(--main-color);
@@ -6099,18 +6107,6 @@ textarea::-webkit-scrollbar {
     color: #fff;
 }
 .inspector-S2gM3e {
-    background-color: transparent;
-}
-.drawerSizingWrapper-17Mss4 {
-    min-width: 430px;
-}
-.wrapper-1rqM3x .emojiPicker-3PwZFl {
-    background-color: rgba(0,0,0,0.7);
-}
-.emojiPicker-3PwZFl {
-    min-width: 430px;
-}
-.guildIcon-3h-1IH {
     background-color: transparent;
 }
 .popout-103y-5 .title-3sZWYQ {
@@ -6222,7 +6218,7 @@ textarea::-webkit-scrollbar {
     border-color: var(--main-color) !important;
 }
 .popoutContainer-1MXdqN {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.8);
 }
 .emojiSection-3Fb9ix {
     background-color: transparent;
@@ -7926,9 +7922,6 @@ textarea::-webkit-scrollbar {
     background-color: rgba(0,0,0,0.5);
     border: none !important;
 }
-#bda-qem ~ .emojiPicker-3m1S-j {
-    border-radius: 0 0 5px 5px;
-}
 #bda-qem > button {
     border-color: transparent;
     box-shadow: none;
@@ -8896,9 +8889,6 @@ textarea::-webkit-scrollbar {
 }
 .premiumRetentionNotice-1MsjHe {
     background-color: var(--background-overlay);
-}
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-    display: none;
 }
 .tabBar-2UKwcE .tabBarItem-1Cg-MI:after {
     background: var(--main-color);
