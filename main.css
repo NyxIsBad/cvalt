@@ -646,37 +646,37 @@ textarea {
     color: rgba(255,255,255,0.7);
     transform: rotateY(180deg) rotateZ(-90deg) translateY(3px);
 }
-.layer-3QrUeG .wrapper-1Rf91z {
+.layer-3QrUeG .wrapper-3NnKdC {
     background-color: transparent;
 }
-.platform-osx .wrapper-1Rf91z {
+.platform-osx .wrapper-3NnKdC {
     margin-top: 0;
     padding-top: 48px;
 }
-.platform-osx .wrapper-1Rf91z:before {
+.platform-osx .wrapper-3NnKdC:before {
     content: "";
     height: 48px;
     margin-top: -48px;
     background-color: rgba(0,0,0,0.3);
 }
-.wrapper-1Rf91z {
+.wrapper-3NnKdC {
     box-shadow: inset 0 0 20px rgba(0, 0, 0, calc(var(--background-shading) * .3));
 }
 .scrollerWrap-1IAIlv {
     width: auto;
 }
-.scroller-2TZvBN {
+.scroller-1Bvpku {
     background: transparent;
 }
-ul.tree-3tCaw8 {
+.tree-2wKJdG {
     outline: none;
 }
-.homeIcon-tEMBK1 {
+.homeIcon-FuNwkv {
     width: 100%;
     height: 100%;
     background: var(--home-icon) var(--home-position)/var(--home-size) no-repeat;
 }
-.homeIcon-tEMBK1 > path {
+.homeIcon-FuNwkv > path {
     display: none;
 }
 .friendsOnline-2JkivW {
@@ -716,10 +716,10 @@ ul.tree-3tCaw8 {
     background: var(--main-color);
     color: #fff;
 }
-.dragInner-_SHftW {
+.dragInner-Oq_toX {
     background: rgba(255,255,255,0.1);
 }
-.iconBadge-2wi9r4 {
+.iconBadge-3qSJIw {
     background: rgba(255,255,255,0.07);
     box-shadow: 0 0 0 1px rgba(255,255,255,0.07);
 }
@@ -729,50 +729,50 @@ ul.tree-3tCaw8 {
     -webkit-filter:drop-shadow(0 0 3px var(--main-color));
     filter:drop-shadow(0 0 3px var(--main-color));
 }
-.wrapper-21YSNc .expandedFolderBackground-2sPsd- {
+.wrapper-3Njo_c .expandedFolderBackground-1cujaW {
     background: rgba(255,255,255,0.04);
     border-radius: 16px 16px 24px 24px;
     transition: background-color 0.3s ease-in-out;
 }
-.wrapper-21YSNc .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
+.wrapper-3Njo_c .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
     background: transparent;
 }
-.folder-21wGz3 {
+.folder-1hbNCn {
     background: rgba(255,255,255,0.07);
     transition: all 0.3s ease-in-out;
 }
-.folder-21wGz3.hover-2ji_A7 {
+.folder-1hbNCn.hover-qTxTR_ {
     background: rgba(255,255,255,0.1);
 }
 .noIcon-1a_FrS {
     background: rgba(0,0,0,0.3) !important;
     color: rgba(255,255,255,0.7);
 }
-.expandedGuilds-1JMD4M > .listItem-2P_4kh {
+.expandedGuilds-1JMD4M > .listItem-GuPuDH {
     -webkit-animation: cv-fade-in 0.3s ease-in-out;
     animation: cv-fade-in 0.3s ease-in-out;
 }
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
     background: rgba(0,0,0,0.3);
     color: rgba(255,255,255,0.3);
     transition: all 0.3s ease-in-out;
 }
-.circleIconButton-jET_ig.selected-ugP_am,
-.circleIconButton-jET_ig:hover {
+.circleIconButton-1QV--U.selected-1JjBPm,
+.circleIconButton-1QV--U:hover {
     background: var(--main-color);
     color: #fff;
 }
-.guildsError-b7zR5H {
+.guildsError-g6NwOI {
     background: rgba(0,0,0,0.5);
     border: 2px solid var(--danger-color);
     color: #fff;
     transition: all 0.3s ease-in-out;
 }
-.guildsError-b7zR5H:hover {
+.guildsError-g6NwOI:hover {
     background: var(--danger-color);
     border-color: var(--danger-color);
 }
-.guildSeparator-3s64Iy {
+.guildSeparator-33mFX6 {
     background: rgba(255,255,255,0.1);
 }
 .sidebar-2K8pFh {
@@ -2225,7 +2225,8 @@ ul.tree-3tCaw8 {
     max-width: 93%;
     padding: 0;
     background: transparent;
-    border: 2px solid transparent;
+    border: 2px solid rgba(255,255,255,0.05);
+    border-radius: 8px;
     font-family: var(--code-font);
 }
 .markup-2BOw-j pre > .hljs {
@@ -2233,7 +2234,6 @@ ul.tree-3tCaw8 {
     padding: 6px;
     background: rgba(0,0,0,0.42);
     border: none;
-    border-radius: 5px;
     color: rgba(255,255,255,0.7);
 }
 .markup-2BOw-j pre > .hljs:before {
@@ -2993,8 +2993,11 @@ code {
 .mentioned-xhSam7 {
     background-color: rgba(255,255,255,0.05);
 }
-.mentioned-xhSam7:hover {
-    background-color: rgba(255,255,255,0.08) !important;
+.message-2qnXI6.selected-2P5D_Z.mentioned-xhSam7 {
+    background-color: rgba(255,255,255,0.08);
+}
+.mouse-mode.full-motion .mentioned-xhSam7:hover {
+    background-color: rgba(255,255,255,0.08);
 }
 .mentioned-xhSam7::before {
     background-color: var(--main-color);
@@ -5502,6 +5505,9 @@ textarea::-webkit-scrollbar {
 .layer-v9HyYc .header-ykumBX .tab-ck0077.active-1MbGPa {
     background-color: var(--main-color) !important;
 }
+.layer-v9HyYc .footer-1kmXd4 {
+    background-color: transparent;
+}
 .layer-v9HyYc .messagesPopout-24nkyi {
     background: transparent;
 }
@@ -7566,13 +7572,13 @@ textarea::-webkit-scrollbar {
 .searchBar-281-wK {
     background-color: rgba(0,0,0,0.4);
 }
-.notice-1tZwqv {
+.notice-18685F {
     background-color: var(--main-color);
 }
-.container-3LUQwT {
-    background-color: var(--backdrop-overlay);
+.container-1eFT6O {
+    background-color: rgba(0,0,0,0.8);
 }
-.role-3ulsK-:hover {
+.role-2-tni0:hover {
     background-color: rgba(255,255,255,0.1);
 }
 .iconContainer-1zobSR.checked-1Fij_T {
@@ -8789,7 +8795,7 @@ textarea::-webkit-scrollbar {
 .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
     background-image: linear-gradient(0deg, transparent, transparent 1px, var(--main-color) 0, var(--main-color) 2px, transparent 0);
 }
-.iconBadge-2wi9r4.participating-NBGDkr {
+.iconBadge-3qSJIw {
     background-color: var(--backdrop-overlay);
 }
 .theme-dark .quickSelectPopout-X1hvgV {
@@ -8844,11 +8850,6 @@ textarea::-webkit-scrollbar {
 .channelName-2wrHHc,
 .content-MLh4nU {
     background-color: var(--background-overlay);
-}
-.splashHeader-ehL7gZ:after {
-    content: "WE DIED";
-    color: var(--danger-color);
-    font-size: 20px;
 }
 .splashText-3jk87t {
     font-size: 0;
@@ -9209,26 +9210,6 @@ textarea::-webkit-scrollbar {
 .colorDefault-2K3EoJ .radioSelection-1HmrQS,
 .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
     color: var(--main-color);
-}
-.jumpButton-1ol35X,
-.searchResult-2N9RV4.expanded-ovgtuV,
-.searchResultsWrap-3-pOjs {
-    background-color: var(--backdrop-overlay);
-}
-.channelName-wvgELL,
-.searchResult-2N9RV4.expanded-ovgtuV {
-    background-color: transparent;
-}
-.searchResult-2N9RV4:after,
-.searchResult-2N9RV4:before {
-    background-image: none;
-}
-.searchResultMessage-30QnSN.hit-1CXhXT {
-    box-shadow: none;
-    background-color: var(--background-overlay);
-}
-.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
-    background-color: var(--background-overlay);
 }
 .button-F9qN4n.focused-3ZzkKr {
     box-shadow: 0 0 2px 2px var(--hover-color);
