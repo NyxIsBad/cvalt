@@ -720,12 +720,13 @@ textarea {
     background: rgba(255,255,255,0.1);
 }
 .iconBadge-3qSJIw {
-    background: rgba(255,255,255,0.07);
-    box-shadow: 0 0 0 1px rgba(255,255,255,0.07);
+    background: rgba(0,0,0,0.07);
 }
-.participating-1NvRVd.iconBadge-3qSJIw {
-    background: rgba(255,255,255,0.07);
-    box-shadow: 0 0 0 1px rgba(255,255,255,0.07);
+.iconBadge-3qSJIw.participating-1NvRVd {
+    background: var(--main-color);
+}
+.iconBadge-3qSJIw.participating-1NvRVd .icon-3s6X1M {
+    color: #fff;
 }
 .icon-3s6X1M {
     padding: 1px;
@@ -758,7 +759,7 @@ textarea {
 }
 .circleIconButton-1QV--U {
     background: rgba(0,0,0,0.3);
-    color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.7);
     transition: all 0.3s ease-in-out;
 }
 .circleIconButton-1QV--U.selected-1JjBPm,
@@ -838,6 +839,7 @@ textarea {
     box-shadow: none;
 }
 .container-3w7J-x .bannerImage-3KhIJ6 {
+    width: var(--channels-width);
     -webkit-mask: linear-gradient(to bottom, #000, transparent);
     mask: linear-gradient(to bottom, #000, transparent);
 }
@@ -6746,6 +6748,12 @@ textarea::-webkit-scrollbar {
     color: var(--main-color);
     border-bottom: 2px solid var(--main-color);
 }
+.tile-2w4k5N:hover .sourceThumbnail-27dolk {
+    box-shadow: inset 0 0 0 2px var(--hover-color);
+}
+.tile-2w4k5N .sourceThumbnail-27dolk.selected-1nOkyc {
+    box-shadow: inset 0 0 0 2px var(--main-color);
+}
 .card-2Mz_4z {
     background-color: rgba(255,255,255,0.07);
     border: 2px solid rgba(255,255,255,0.09);
@@ -6755,9 +6763,9 @@ textarea::-webkit-scrollbar {
     border-color: rgba(255,255,255,0.09);
 }
 .theme-dark .selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
-    background-color: rgba(255,255,255,0.13);
+    background-color: var(--hover-color);
 }
-.theme-dark .selectorButton-EEUWed.selectorButtonSelected-t5V9On {
+.theme-dark .selectorButton-EEUWed.selectorButtonSelected-t5V9On:not(.selectorButtonPremiumRequired-mKMbIu) {
     background-color: var(--main-color);
 }
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
@@ -8753,9 +8761,6 @@ textarea::-webkit-scrollbar {
 }
 .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
     background-image: linear-gradient(0deg, transparent, transparent 1px, var(--main-color) 0, var(--main-color) 2px, transparent 0);
-}
-.iconBadge-3qSJIw {
-    background-color: var(--backdrop-overlay);
 }
 .theme-dark .quickSelectPopout-X1hvgV {
     background: var(--backdrop-overlay);
