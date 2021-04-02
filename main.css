@@ -1930,7 +1930,8 @@ textarea {
 .textInput-2xgsSa {
     background-color: transparent;
 }
-.callContainer-3UuV6S {
+.callContainer-3UuV6S,
+.container-pTf0Ly {
     background-color: transparent;
 }
 .scroller-1SuHJo {
@@ -1950,7 +1951,7 @@ textarea {
     background-color: rgba(0,0,0,0.4);
 }
 .tileContainer-BaRAZF:hover {
-    background-color: rgba(255,255,255,0.07);
+    background-color: rgba(255,255,255,0.05);
 }
 .container-1EOCj2 {
     background-color: rgba(0,0,0,0.6);
@@ -3267,7 +3268,7 @@ code {
 .languageSelector-2LVJrh .item-2J2GlB:hover {
     background-color: rgba(255,255,255,0.05);
 }
-.languageSelector-2LVJrh .item-2J2GlB .selected-2114Fj {
+.languageSelector-2LVJrh .item-2J2GlB.selected-2114Fj {
     background-color: var(--main-color);
 }
 .modalTextContainer-ITvzbi {
@@ -7022,153 +7023,91 @@ textarea::-webkit-scrollbar {
 .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color:rgb(240, 71, 71)"]:hover:after {
     opacity: 0.7;
 }
-.connectionHeader-2MDqhu > img[alt*="Spotify"]+div:before {
-    background: #1aa84d;
+.connection-1fbD7X,
+.connectionHeader-2MDqhu {
+    background: transparent;
+}
+.connectionAccountLabel-1DiK0A {
+    color: rgba(255,255,255,0.7);
+}
+.connectionDelete-2Odoln {
+    color: rgba(255,255,255,0.7);
+}
+.connectionIcon-2ElzVe+div:before {
+    content: "";
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
+    opacity: 0.6;
     border-radius: 8px 8px 0 0;
     pointer-events: none;
+    z-index: -1;
+    background-color: #000;
 }
-.connectionHeader-2MDqhu > img[alt*="Spotify"]+div:after {
-    background: #1DB954;
+.connectionIcon-2ElzVe+div:after {
+    content: "";
+    position: absolute;
     top: 72px;
     right: 0;
     left: 0;
+    bottom: -64px;
+    opacity: 0.5;
+    border-radius: 0 0 8px 8px;
+    pointer-events: none;
+    z-index: -1;
+    background-color: #000;
+}
+.connectionIcon-2ElzVe[alt*="Twitch"]+div:before,
+.connectionIcon-2ElzVe[alt*="Twitch"]+div:after {
+    background-color: #593695;
+}
+.connectionIcon-2ElzVe[alt*="Youtube"]+div:before,
+.connectionIcon-2ElzVe[alt*="Youtube"]+div:after {
+    background-color: #E5151A;
+}
+.connectionIcon-2ElzVe[alt*="Battle.net"]+div:before,
+.connectionIcon-2ElzVe[alt*="Battle.net"]+div:after {
+    background-color: #0566b0;
+}
+.connectionIcon-2ElzVe[alt*="Steam"]+div:before,
+.connectionIcon-2ElzVe[alt*="Steam"]+div:after {
+    background-color: #212121;
+}
+.connectionIcon-2ElzVe[alt*="Reddit"]+div:before,
+.connectionIcon-2ElzVe[alt*="Reddit"]+div:after {
+    background-color: #FF5900;
+}
+.connectionIcon-2ElzVe[alt*="Facebook"]+div:before,
+.connectionIcon-2ElzVe[alt*="Facebook"]+div:after {
+    background-color: #355089;
+}
+.connectionIcon-2ElzVe[alt*="Twitter"]+div:before,
+.connectionIcon-2ElzVe[alt*="Twitter"]+div:after {
+    background-color: #33AEFA;
+}
+.connectionIcon-2ElzVe[alt*="Spotify"]+div:before,
+.connectionIcon-2ElzVe[alt*="Spotify"]+div:after {
+    background-color: #1db954;
+}
+.connectionIcon-2ElzVe[alt*="Spotify"]+div:before {
     bottom: -108px;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    border-radius: 0 0 8px 8px;
-    pointer-events: none;
 }
-.connectionHeader-2MDqhu > *,
-.connectionOptions-YE9FAM > * {
-    z-index: 1;
+.connectionIcon-2ElzVe[alt*="Xbox Live"]+div:before,
+.connectionIcon-2ElzVe[alt*="Xbox Live"]+div:after {
+    background: #107c10;
 }
-.connectionHeader-2MDqhu > img {
-    -webkit-filter:grayscale(1) brightness(1.5);
-    filter:grayscale(1) brightness(1.5);
-    z-index: 2;
-}
-.connectionHeader-2MDqhu > img[alt*="Battle.net"]+div:before {
-    background: #0566b0;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    border-radius: 8px 8px 0 0;
-    pointer-events: none;
-}
-.connectionHeader-2MDqhu > img[alt*="Battle.net"]+div:after {
-    background: #0566b0;
-    top: 72px;
-    right: 0;
-    left: 0;
-    bottom: -64px;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    border-radius: 0 0 8px 8px;
-    pointer-events: none;
-}
-.connectionHeader-2MDqhu > img[alt*="Steam"]+div:before {
-    background: #171a21;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    border-radius: 8px 8px 0 0;
-    pointer-events: none;
-}
-.connectionHeader-2MDqhu > img[alt*="Steam"]+div:after {
-    background: #171a21;
-    top: 72px;
-    right: 0;
-    left: 0;
-    bottom: -64px;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    border-radius: 0 0 8px 8px;
-    pointer-events: none;
-}
-.connectionHeader-2MDqhu > img[alt*="Twitch"]+div:before {
-    background: #6441a5;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    border-radius: 8px 8px 0 0;
-    pointer-events: none;
-}
-.connectionHeader-2MDqhu > img[alt*="Twitch"]+div:after {
-    background: #6441a5;
-    top: 72px;
-    right: 0;
-    left: 0;
-    bottom: -64px;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    pointer-events: none;
-}
-.connectedAccountSeparator-2EgLhW {
-    display: none;
+.connectionIcon-2ElzVe[alt*="GitHub"]+div:before,
+.connectionIcon-2ElzVe[alt*="GitHub"]+div:after {
+    background: #333;
 }
 .integrationsWrapper-VkM_zO {
-    background: #6441a5;
+    background-color: #593695;
     border-radius: 0 0 8px 8px;
 }
 .integration-3kMeY4 {
-    background: #6441a5;
-}
-.connectionHeader-2MDqhu > img[alt*="GitHub"]+div:before {
-    background: #333;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    border-radius: 8px 8px 0 0;
-    pointer-events: none;
-}
-.connectionHeader-2MDqhu > img[alt*="GitHub"]+div:after {
-    background: #333;
-    top: 72px;
-    right: 0;
-    left: 0;
-    bottom: -64px;
-    position: absolute;
-    content: "";
-    z-index: -1;
-    opacity: 1;
-    border-radius: 0 0 8px 8px;
-    pointer-events: none;
+    background-color: #593695;
 }
 [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ {
     padding-left: 50px !important;
@@ -9326,108 +9265,6 @@ textarea::-webkit-scrollbar {
     background-color: var(--background-overlay);
 }
 .descriptionInput-1C1q6Z,
-.enableContainer-1ZFFhM,
-.previewContainer-1OoJ8M,
-.welcomeChannel-1wxdCJ {
-    background-color: var(--background-overlay);
-}
-.theme-dark .tierHeaderUnlocked-2RhWqn {
-    background-color: var(--background-overlay);
-}
-.channelName-1JRO3C {
-    background: transparent;
-}
-.searchResult-9tQ1uo:after {
-    background-image: none;
-}
-.searchResult-9tQ1uo:before {
-    background-image: none;
-}
-.searchResultMessage-1fxgXh.hit-1fVM9e {
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-}
-.searchResult-9tQ1uo.expanded-w_LCGl {
-    background-color: var(--background-overlay);
-    border: none;
-}
-.searchResult-9tQ1uo .hit-1fVM9e .messageGroupCozy-2-Q370 {
-    background-color: var(--background-overlay);
-}
-.searchResult-9tQ1uo:focus-within .jumpButton-JkYoYK,
-.searchResult-9tQ1uo:hover .jumpButton-JkYoYK {
-    background-color: var(--backdrop-overlay);
-}
-.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
-    background-color: transparent;
-}
-.scroller-9moviB {
-    background: transparent;
-}
-.button-G2dHuB:active,
-.button-G2dHuB:hover {
-    background-color: var(--hover-color) !important;
-}
-.barSecondary-3B1aP2 {
-    background-color: var(--main-color);
-}
-.scroller-1JpcIc {
-    background-color: transparent;
-}
-.guildDetails-2p1NmK {
-    background-color: transparent;
-}
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
-    background-color: var(--hover-color);
-}
-.notEnoughMembersError-1KwJkE {
-    background-color: var(--background-help-warning);
-}
-.upsellContainer-L9xv7w,
-.upsellContent-1JlpHe,
-.upsellFooter-ZYsio_ {
-    background-color: transparent;
-}
-.perkArt-1SGWbA,
-.theme-dark .card-3_CqkU,
-.theme-dark .iconMask-30Tvqs {
-    background-color: var(--background-overlay);
-}
-.iconWrapper-lS1uig {
-    background-color: var(--background-overlay);
-}
-.button-2OOM0p {
-    color: var(--url-color);
-}
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
-    background-color: var(--hover-color);
-}
-.badge-_BgAUQ {
-    background-color: var(--main-color);
-}
-.mediaBarProgress-1xaPtl:after,
-.mediaBarProgress-1xaPtl:before {
-    background-color: inherit;
-}
-.lookOutlined-3sRXeN.colorBrand-3pXr91 {
-    color: var(--main-color);
-    border-color: var(--main-color);
-}
-.lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
-    color: var(--hover-color);
-    border-color: var(--hover-color);
-}
-.message-39hdqk {
-    width: 110%;
-}
-.close-jnIfru:hover {
-    color: var(--danger-color);
-}
-.channelHeader-3Gd2xq {
-    background-color: var(--backdrop-overlay);
-}escriptionInput-1C1q6Z,
 .enableContainer-1ZFFhM,
 .previewContainer-1OoJ8M,
 .welcomeChannel-1wxdCJ {
