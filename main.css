@@ -1769,10 +1769,6 @@ textarea {
 .autocomplete-1vrmpx .iconForeground-1w5n7R {
     fill: rgba(255,255,255,0.3);
 }
-.autocomplete-1vrmpx .description-11DmNu,
-.autocomplete-1vrmpx .descriptionUsername-J_75O8 {
-    color: rgba(255,255,255,0.3);
-}
 .autocomplete-1vrmpx .descriptionDiscriminator-3vUOCc {
     color: rgba(255,255,255,0.15);
 }
@@ -1785,31 +1781,26 @@ textarea {
 .autocomplete-1vrmpx .selected-1Tbx07 .iconForeground-1w5n7R {
     fill: rgba(255,255,255,0.7);
 }
-.autocomplete-1vrmpx .selected-1Tbx07 .description-11DmNu,
-.autocomplete-1vrmpx .selected-1Tbx07 .descriptionDiscriminator-3vUOCc,
-.autocomplete-1vrmpx .selected-1Tbx07 .descriptionUsername-J_75O8 {
-    color: rgba(255,255,255,0.7);
+.autocomplete-1vrmpx .selected-1Tbx07 .autocompleteRowContentSecondary-1tgI-F,
+.autocomplete-1vrmpx .selected-1Tbx07 .autocompleteRowSubheading-WqMMIl,
+.autocomplete-1vrmpx .selected-1Tbx07 .descriptionDiscriminator-3vUOCc {
+    color: #fff;
 }
-.rail-2CbP6L {
+.categoryHeader-O1zU94,
+.list-A0BHjR,
+.wrapper-uf3cnO {
     background-color: transparent;
 }
-.selected-3xBBKs,
-.selected-3xBBKs:hover {
+.wrapper-2siovq .selected-3xBBKs,
+.wrapper-2siovq .selected-3xBBKs:hover {
     background-color: var(--main-color);
-}
-.categoryHeader-O1zU94 {
-    background-color: transparent;
-}
-.selected-1Tbx07 .description-QP9Ktn,
-.selected-1Tbx07 .source-3DBj4z {
-    color: rgba(255,255,255,0.7);
 }
 .optionalHeader-mLQoIx {
     color: rgba(255,255,255,0.7);
     border-color: transparent;
 }
 .option-1B5ZV8 {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
 }
 .bar-AokMp3 {
     background-color: transparent;
@@ -4861,44 +4852,42 @@ code {
 }
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     background: var(--main-color);
 }
 .appMount-3lHmkl .hasHover-3X1-zV.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .appMount-3lHmkl .hasHover-3X1-zV.lookFilled-1Gx00P.colorGreen-29iAKY:hover,
+.appMount-3lHmkl .hasHover-3X1-zV.lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .appMount-3lHmkl .hasHover-3X1-zV.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
     background: var(--hover-color);
 }
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {
     background: var(--main-color) !important;
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookFilled-1Gx00P.colorWhite-rEQuAQ {
     background: rgba(255,255,255,0.1);
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV > .contents-18-Yxp,
 .lookFilled-1Gx00P.colorWhite-rEQuAQ > .contents-18-Yxp {
     color: rgba(255,255,255,0.7);
     transition: inherit;
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .lookFilled-1Gx00P.colorWhite-rEQuAQ:hover {
     background: rgba(255,255,255,0.2) !important;
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV:hover > .contents-18-Yxp,
 .lookFilled-1Gx00P.colorWhite-rEQuAQ:hover > .contents-18-Yxp {
     color: #fff;
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV:disabled,
 .lookFilled-1Gx00P.colorWhite-rEQuAQ:disabled {
     background: rgba(255,255,255,0.1) !important;
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV:disabled > .contents-18-Yxp,
 .lookFilled-1Gx00P.colorWhite-rEQuAQ:disabled > .contents-18-Yxp {
     color: rgba(255,255,255,0.5);
 }
@@ -7097,6 +7086,9 @@ textarea::-webkit-scrollbar {
 .connectionIcon-2ElzVe[alt*="Facebook"]+div:after {
     background-color: #355089;
 }
+.connectionIcon-2ElzVe[alt*="Facebook"]+div:after {
+    bottom: -108px;
+}
 .connectionIcon-2ElzVe[alt*="Twitter"]+div:before,
 .connectionIcon-2ElzVe[alt*="Twitter"]+div:after {
     background-color: #33AEFA;
@@ -7105,12 +7097,15 @@ textarea::-webkit-scrollbar {
 .connectionIcon-2ElzVe[alt*="Spotify"]+div:after {
     background-color: #1db954;
 }
-.connectionIcon-2ElzVe[alt*="Spotify"]+div:before {
+.connectionIcon-2ElzVe[alt*="Spotify"]+div:after {
     bottom: -108px;
 }
 .connectionIcon-2ElzVe[alt*="Xbox Live"]+div:before,
 .connectionIcon-2ElzVe[alt*="Xbox Live"]+div:after {
     background-color: #107c10;
+}
+.connectionIcon-2ElzVe[alt*="Xbox Live"]+div:after {
+    bottom: -108px;
 }
 .connectionIcon-2ElzVe[alt*="GitHub"]+div:before,
 .connectionIcon-2ElzVe[alt*="GitHub"]+div:after {
