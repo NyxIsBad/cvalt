@@ -1201,15 +1201,14 @@ textarea,
   opacity: 0.3;
   transition: all 0.1s ease-in-out;
 }
+.button-14-BFJ.enabled-2cQ-u7:hover {
+  background: transparent;
+}
 .button-14-BFJ:hover > .contents-18-Yxp > svg {
   opacity: 0.7;
 }
 .button-14-BFJ.disabled-2iW-fm > .contents-18-Yxp > svg {
   opacity: 0.1;
-}
-.button-14-BFJ:nth-child(3):hover > .contents-18-Yxp > svg {
-  -webkit-animation: cv-spin 2.5s linear infinite;
-          animation: cv-spin 2.5s linear infinite;
 }
 
 .container-3baos1 {
@@ -2023,7 +2022,7 @@ textarea,
 .fakeLink-26oLcc,
 .embed-IeVjo6 > .embedTitleLink-1Zla9e,
 .markup-2BOw-j a,
-.content-2M3n_H a {
+.content-s2SEQO a {
   color: var(--url-color) !important;
 }
 
@@ -3432,7 +3431,7 @@ code {
   background-color: var(--background-overlay);
 }
 
-/* USERNAME TAGS */
+/* TAGGED USERS */
 .contents-2mQqc9 > img ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: none;
   color: currentcolor;
@@ -3449,6 +3448,9 @@ code {
 }
 .contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Admin";
+}
+.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "CV Team";
 }
 .contents-2mQqc9 > img[src*="240437190339854337"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Team";
@@ -3552,71 +3554,11 @@ code {
 .contents-2mQqc9 > img[src*="245133485688225793"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Donator";
 }
-.contents-2mQqc9 > img[src*="266991742216175616"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="97549189629636608"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="128948605263413248"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="168481642309091328"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="165581066524950530"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="102621249892544512"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="94553281296084992"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="85410928408924160"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="143476079267414016"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="131917628800237570"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="155379920242081793"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="135130130942132224"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="123340872333918215"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="250721335305568258"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="297041315852713984"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="128006451053592577"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="102009847792291840"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="513423192484872223"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
-.contents-2mQqc9 > img[src*="580867069621567488"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Tester";
-}
 .contents-2mQqc9 > img[src*="538745942493495298"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Guide Creator";
+  content: "CV Translator";
 }
 .contents-2mQqc9 > img[src*="265627010733178892"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Guide Creator";
-}
-.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Team | Tag Originator";
+  content: "CV Guide Maker";
 }
 .contents-2mQqc9 > img[src*="309976820109803520"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "Former CV Team";
@@ -4923,22 +4865,18 @@ code {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorWhite-rEQuAQ,
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorGreen-29iAKY,
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorRed-1TFJan,
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorBrand-3pXr91 {
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ,
+.lookOutlined-3sRXeN.colorPrimary-3b3xI6,
+.lookOutlined-3sRXeN.colorGreen-29iAKY, j .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   background: transparent;
-  border-color: transparent;
+  border-color: var(--main-color);
   color: rgba(255, 255, 255, 0.8);
 }
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover,
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorGreen-29iAKY:hover,
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorRed-1TFJan:hover,
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover,
+.lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
+.lookOutlined-3sRXeN.colorGreen-29iAKY:hover, j .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
   background: transparent;
-  border-color: transparent;
+  border-color: var(--hover-color);
   color: #fff;
 }
 
@@ -7270,78 +7208,98 @@ textarea::-webkit-scrollbar {
   background: transparent;
 }
 
-.connectionAccountLabel-1DiK0A {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.connectionDelete-2Odoln {
-  color: rgba(255, 255, 255, 0.7);
-}
-
 .connectionIcon-2ElzVe + div:before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
-  left: 0;
   bottom: 0;
-  opacity: 0.6;
+  left: 0;
   border-radius: 8px 8px 0 0;
   pointer-events: none;
   z-index: -1;
-  background-color: #000;
 }
 .connectionIcon-2ElzVe + div:after {
   content: "";
   position: absolute;
   top: 72px;
   right: 0;
-  left: 0;
   bottom: -64px;
-  opacity: 0.5;
+  left: 0;
   border-radius: 0 0 8px 8px;
   pointer-events: none;
   z-index: -1;
-  background-color: #000;
 }
-.connectionIcon-2ElzVe[alt*=Twitch] + div:before, .connectionIcon-2ElzVe[alt*=Twitch] + div:after {
-  background-color: #593695;
+.connectionIcon-2ElzVe[alt*=Twitch] + div:before {
+  background-color: rgba(89, 54, 149, 0.6);
 }
-.connectionIcon-2ElzVe[alt*=Youtube] + div:before, .connectionIcon-2ElzVe[alt*=Youtube] + div:after {
-  background-color: #E5151A;
+.connectionIcon-2ElzVe[alt*=Twitch] + div:after {
+  background-color: rgba(89, 54, 149, 0.5);
 }
-.connectionIcon-2ElzVe[alt*="Battle.net"] + div:before, .connectionIcon-2ElzVe[alt*="Battle.net"] + div:after {
-  background-color: #0566b0;
+.connectionIcon-2ElzVe[alt*=Youtube] + div:before {
+  background-color: rgba(229, 21, 26, 0.6);
 }
-.connectionIcon-2ElzVe[alt*=Steam] + div:before, .connectionIcon-2ElzVe[alt*=Steam] + div:after {
-  background-color: #212121;
+.connectionIcon-2ElzVe[alt*=Youtube] + div:after {
+  background-color: rgba(229, 21, 26, 0.5);
 }
-.connectionIcon-2ElzVe[alt*=Reddit] + div:before, .connectionIcon-2ElzVe[alt*=Reddit] + div:after {
-  background-color: #FF5900;
+.connectionIcon-2ElzVe[alt*="Battle.net"] + div:before {
+  background-color: rgba(5, 102, 176, 0.6);
 }
-.connectionIcon-2ElzVe[alt*=Facebook] + div:before, .connectionIcon-2ElzVe[alt*=Facebook] + div:after {
-  background-color: #355089;
+.connectionIcon-2ElzVe[alt*="Battle.net"] + div:after {
+  background-color: rgba(5, 102, 176, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Steam] + div:before {
+  background-color: rgba(33, 33, 33, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Steam] + div:after {
+  background-color: rgba(33, 33, 33, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Reddit] + div:before {
+  background-color: rgba(255, 89, 0, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Reddit] + div:after {
+  background-color: rgba(255, 89, 0, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Facebook] + div:before {
+  background-color: rgba(53, 80, 137, 0.6);
 }
 .connectionIcon-2ElzVe[alt*=Facebook] + div:after {
-  bottom: -108px;
+  background-color: rgba(53, 80, 137, 0.5);
 }
-.connectionIcon-2ElzVe[alt*=Twitter] + div:before, .connectionIcon-2ElzVe[alt*=Twitter] + div:after {
-  background-color: #33AEFA;
+.connectionIcon-2ElzVe[alt*=Twitter] + div:before {
+  background-color: rgba(51, 174, 250, 0.6);
 }
-.connectionIcon-2ElzVe[alt*=Spotify] + div:before, .connectionIcon-2ElzVe[alt*=Spotify] + div:after {
-  background-color: #1db954;
+.connectionIcon-2ElzVe[alt*=Twitter] + div:after {
+  background-color: rgba(51, 174, 250, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Spotify] + div:before {
+  background-color: rgba(29, 185, 84, 0.6);
 }
 .connectionIcon-2ElzVe[alt*=Spotify] + div:after {
-  bottom: -108px;
+  background-color: rgba(29, 185, 84, 0.5);
 }
-.connectionIcon-2ElzVe[alt*="Xbox Live"] + div:before, .connectionIcon-2ElzVe[alt*="Xbox Live"] + div:after {
-  background-color: #107c10;
+.connectionIcon-2ElzVe[alt*="Xbox Live"] + div:before {
+  background-color: rgba(16, 124, 16, 0.6);
 }
 .connectionIcon-2ElzVe[alt*="Xbox Live"] + div:after {
+  background-color: rgba(16, 124, 16, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Github] + div:before {
+  background-color: rgba(51, 51, 51, 0.6);
+}
+.connectionIcon-2ElzVe[alt*=Github] + div:after {
+  background-color: rgba(51, 51, 51, 0.5);
+}
+.connectionIcon-2ElzVe[alt*=Facebook] + div:after, .connectionIcon-2ElzVe[alt*=Spotify] + div:after, .connectionIcon-2ElzVe[alt*="Xbox Live"] + div:after {
   bottom: -108px;
 }
-.connectionIcon-2ElzVe[alt*=GitHub] + div:before, .connectionIcon-2ElzVe[alt*=GitHub] + div:after {
-  background-color: #333;
+
+.connectionAccountLabel-1DiK0A {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.connectionDelete-2Odoln {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .integrationsWrapper-VkM_zO {
@@ -7365,25 +7323,25 @@ textarea::-webkit-scrollbar {
   left: 15px;
   margin-top: -2px;
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="My Account-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=My-Account-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/person.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy & Safety-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Privacy-&-Safety-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/security.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Authorized Apps-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Authorized-Apps-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/apps.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Connections-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/link.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Discord Nitro-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Discord-Nitro-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Nitro Server Boost-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Nitro-Server-Boost-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Library Inventory-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Library-Inventory-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/gift.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Billing-tab].item-PXvHYJ:before {
@@ -7392,10 +7350,10 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Appearance-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/camera.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice & Video-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Voice-&-Video-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/mic.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text & Images-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Text-&-Images-tab"].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/chat.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Notifications-tab].item-PXvHYJ:before {
@@ -7413,13 +7371,13 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Linux-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/linux.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Streamer Mode-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Streamer-Mode-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/videocam.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Advanced-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/bug.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Game Activity-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Game-Activity-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/games.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Overlay-tab].item-PXvHYJ:before {
@@ -7428,15 +7386,16 @@ textarea::-webkit-scrollbar {
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=changelog-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/history.svg);
 }
-[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls="Hypesquad Online-tab"].item-PXvHYJ:before {
+[aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=Hypesquad-Online-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
 }
 [aria-label=USER_SETTINGS] .sidebar-CFHs9e [aria-controls=logout-tab].item-PXvHYJ:before {
   background-image: url(https://clearvision.gitlab.io/icons/exit.svg);
 }
 
-.icon-Zc-uZZ {
-  margin-right: 10px;
+.icon-Zc-uZZ,
+.icon-3Povsy {
+  margin-right: 15px;
 }
 
 /* SETTINGS CONTENT */
@@ -7447,6 +7406,21 @@ textarea::-webkit-scrollbar {
 .contentRegion-3nDuYy .contentRegionScroller-26nc1e,
 .contentRegion-3nDuYy .scroller-305q3I {
   background: transparent;
+}
+
+.closeButton-1tv5uR {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.closeButton-1tv5uR:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+}
+.closeButton-1tv5uR > svg > path {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.theme-dark .keybind-KpFkfr {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .avatarUploaderInner-3UNxY3 {
