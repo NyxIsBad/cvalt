@@ -1889,14 +1889,16 @@ textarea,
   color: #fff;
 }
 .colorable-1bkp8v.white-3GPOIp {
-  background-color: var(--main-color);
   color: #fff;
+}
+.colorable-1bkp8v.white-3GPOIp:not(:hover) {
+  background-color: var(--main-color) !important;
 }
 .colorable-1bkp8v.white-3GPOIp:hover {
   background-color: var(--hover-color);
 }
 .colorable-1bkp8v.white-3GPOIp .active-1QRrIS {
-  background-color: var(--main-color);
+  background-color: transparent;
 }
 .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T,
 .colorable-1bkp8v.white-3GPOIp .slash-33-IMF {
@@ -6434,10 +6436,10 @@ textarea::-webkit-scrollbar {
   background-color: var(--main-color);
 }
 
-.theme-dark .everyonePopout-nEbJY3 {
-  background-color: rgba(0, 0, 0, 0.4);
+.theme-dark .contentWarningPopout-n5JsIs {
+  background-color: rgba(0, 0, 0, 0.8);
 }
-.theme-dark .footer-2aTx0s {
+.theme-dark .footer-3N9rgh {
   background-color: transparent;
 }
 
@@ -6535,14 +6537,53 @@ textarea::-webkit-scrollbar {
 }
 
 /* STICKERS */
-.stickerInspected-2EM4w- .stickerBackground-2XECKi,
-.viewAllBackground-3Bn1vh {
+.container-2XeR5Z {
   background-color: rgba(255, 255, 255, 0.07);
+  border: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.09);
+  margin-top: 2px;
+}
+.container-2XeR5Z:focus-within {
+  box-shadow: 0 0 2px 2px var(--main-color);
+  transition: all 0.15s ease-in-out;
+}
+.container-2XeR5Z .input-1Rv96N {
+  color: #fff;
+}
+.container-2XeR5Z .input-1Rv96N::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+.container-2XeR5Z .input-1Rv96N:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+.container-2XeR5Z .input-1Rv96N::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.wrapper-2Gsate {
+  background-color: transparent;
+}
+
+.stickerCategory-3Yz7vN {
+  color: rgba(255, 255, 255, 0.7);
+}
+.stickerCategory-3Yz7vN:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 4px;
+}
+
+.stickerCategorySelected-2uaMAG, .stickerCategorySelected-2uaMAG:hover {
+  background-color: var(--main-color);
+  color: #fff;
 }
 
 .wrapper-OxgYJ1 .scrollerBase-289Jih .listItems-1uJgMC .row-2psonc {
   -moz-column-gap: 8px !important;
        column-gap: 8px !important;
+}
+
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
+  background-color: var(--main-color);
 }
 
 /* MODAL */
@@ -6890,6 +6931,7 @@ textarea::-webkit-scrollbar {
 .container-UC8Ug1:hover {
   background-color: var(--hover-color);
 }
+.container-UC8Ug1 .base-1x0h_U,
 .container-UC8Ug1 .text-1FOLJS {
   color: #fff;
 }
@@ -7008,6 +7050,11 @@ textarea::-webkit-scrollbar {
   color: #fff;
 }
 
+/* Change Identity */
+.upsellCard-11CKVn {
+  background-color: transparent;
+}
+
 /* Quickswitcher */
 .quickswitcher-3JagVE {
   background-color: rgba(0, 0, 0, 0.5);
@@ -7019,6 +7066,10 @@ textarea::-webkit-scrollbar {
 
 .scroller-zPkAnE {
   background-color: transparent;
+  margin-top: 10px;
+}
+.scroller-zPkAnE::-webkit-scrollbar-track {
+  background-color: transparent !important;
 }
 
 /* Discord Nitro Gift Payment */
@@ -7831,8 +7882,9 @@ textarea::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0.4);
   border: 3px solid #f47fff;
 }
-.theme-dark .tierHeaderLocked-1a2opw,
-.theme-dark .tierBody-x9kBBp {
+.theme-dark .tierHeaderLocked-3S508x,
+.theme-dark .tierHeaderUnlocked-3lTDnP,
+.theme-dark .tierBody-3aUxuc {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
