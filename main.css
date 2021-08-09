@@ -1341,6 +1341,10 @@ textarea,
   background: rgba(255, 255, 255, 0.2);
 }
 
+.badge-1JXQev {
+  background-color: var(--main-color);
+}
+
 /* CHANNEL INDICATORS */
 .unread-1xRYoj,
 .mention-1f5kbO {
@@ -1762,6 +1766,7 @@ textarea,
 .threadSuggestionBar-2ufK2Z {
   background: transparent;
   border: 2px solid transparent;
+  box-shadow: none;
 }
 
 .mentionButton-3710-W {
@@ -2062,8 +2067,31 @@ textarea,
   color: var(--main-color);
 }
 
+.icon-1zIRB4 {
+  color: var(--main-color);
+  filter: drop-shadow(0 0 3px);
+  width: 22px;
+}
+
+.container-3hZ-gs {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cta-3MixHV {
+  color: var(--main-color);
+}
+
 .cozy-3raOZG.hasThread-2k82W0:after {
   border-color: var(--main-color);
+}
+
+.jump-2-Xh5Z {
+  background-color: var(--main-color);
+  color: #fff;
+}
+.jump-2-Xh5Z:hover {
+  background-color: var(--hover-color);
+  color: #fff;
 }
 
 .wrapper-2aW0bm {
@@ -3303,26 +3331,6 @@ code {
   border: none;
 }
 
-/* Threads in Messages */
-.icon-1zIRB4 {
-  color: var(--main-color);
-  filter: drop-shadow(0 0 3px);
-  width: 22px;
-}
-
-.jump-2-Xh5Z {
-  background-color: var(--main-color);
-  color: #fff;
-}
-.jump-2-Xh5Z:hover {
-  background-color: var(--hover-color);
-  color: #fff;
-}
-
-.container-3hZ-gs {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
 /* MEMBERS */
 .membersWrap-2h-GB4 {
   min-width: auto;
@@ -3348,7 +3356,7 @@ code {
   transition: all 0.15s ease-in-out;
   opacity: 0.85;
 }
-.members-1998pB [style*="color:"].membersGroup-v9BXpm {
+.members-1998pB .membersGroup-v9BXpm:hover {
   opacity: 1;
 }
 .members-1998pB .membersGroup-v9BXpm:before {
@@ -3465,18 +3473,48 @@ code {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.ownerIcon-uZ6mE7 {
-  background: url(https://clearvision.gitlab.io/icons/crown.svg) center/contain no-repeat;
-  opacity: 0.4;
-  transition: all 0.15s ease-in-out;
-}
-.ownerIcon-uZ6mE7 > path,
-.ownerIcon-uZ6mE7 > g {
-  display: none;
-}
-
 .addMembersIcon-1Bz_VS {
   background-color: var(--background-overlay);
+}
+
+.members-1998pB {
+  width: var(--members-width);
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
+}
+.members-1998pB > div {
+  background-color: transparent;
+}
+
+.emptyStateHeader-W2ruuN {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.15s ease-in-out;
+  opacity: 1;
+}
+.emptyStateHeader-W2ruuN:before {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background: linear-gradient(to left, currentColor 50%, transparent);
+  margin-right: 5px;
+}
+.emptyStateHeader-W2ruuN:after {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background: linear-gradient(to right, currentColor 50%, transparent);
+  margin-left: 5px;
+}
+
+.emptyStateIcon-1JWNn4 {
+  background-color: var(--main-color);
+  color: #fff;
 }
 
 /* TAGGED USERS */
@@ -4054,6 +4092,7 @@ code {
 }
 
 [aria-controls=ADD_FRIEND-tab][aria-selected=true].item-PXvHYJ {
+  background-color: transparent !important;
   color: var(--success-color) !important;
   box-shadow: 0 0 0 1px var(--success-color) inset;
 }
@@ -5300,7 +5339,7 @@ textarea::-webkit-scrollbar {
 .container-2Pjhx-.selected-aXhQR6 .activityText-yGKsKm > strong {
   color: #fff;
 }
-.container-2Pjhx-.selected-aXhQR6 .ownerIcon-uZ6mE7 {
+.container-2Pjhx-.selected-aXhQR6 .ownerIcon-2NH9FM {
   filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
   opacity: 0.7;
 }
@@ -5606,7 +5645,7 @@ textarea::-webkit-scrollbar {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* MENU HEADER POPOUT */
+/* MENU POPOUT */
 .menu-3sdvDG {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -5652,6 +5691,13 @@ textarea::-webkit-scrollbar {
 }
 .button-F9qN4n.focused-3ZzkKr {
   box-shadow: 0 0 2px 2px var(--hover-color);
+}
+
+.popout-APcvZm {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.popout-APcvZm .row-1ImlrZ:hover {
+  background-color: var(--hover-color);
 }
 
 /* STATUS PICKER */
@@ -6581,16 +6627,6 @@ textarea::-webkit-scrollbar {
 
 .collapseButton-2ZsEjz {
   padding-left: 9px;
-}
-
-/* THREAD HEADER POPOUT */
-.popout-APcvZm {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.popout-APcvZm .row-1ImlrZ:hover {
-  background-color: var(--hover-color);
 }
 
 /* MODAL */
@@ -8304,11 +8340,6 @@ textarea::-webkit-scrollbar {
 /* THREAD MODAL */
 .modal-2DCYwU {
   background-color: rgba(0, 0, 0, 0.6) !important;
-  -webkit-animation: cv-menu-fold-y 0.2s cubic-bezier(0.2, 0.6, 0.5, 1.1);
-          animation: cv-menu-fold-y 0.2s cubic-bezier(0.2, 0.6, 0.5, 1.1);
-  transform-origin: 50% 0;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .modal-2DCYwU.container-7uh5fX {
   background-color: transparent;
