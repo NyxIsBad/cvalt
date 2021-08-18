@@ -1109,12 +1109,15 @@ textarea,
   width: 0;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 0;
   background: linear-gradient(to right, var(--main-color) 10%, transparent);
   opacity: 0.5;
   transition: all 0.1s ease-in-out, width 0.15s ease-in-out;
   pointer-events: none;
   z-index: -1;
+  border-radius: 999px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .voiceUser-1K6Xox .avatarSpeaking-2IGMRN {
   box-shadow: 0 0 0 2px var(--main-color), inset 0 0 3px rgba(0, 0, 0, 0.5);
@@ -1122,7 +1125,7 @@ textarea,
 .voiceUser-1K6Xox .avatarSpeaking-2IGMRN:after {
   top: -2px;
   bottom: -2px;
-  width: 100px;
+  width: 150px;
 }
 .voiceUser-1K6Xox .username-3KYl0N {
   color: rgba(255, 255, 255, 0.5);
@@ -3710,6 +3713,7 @@ code {
 }
 /* USER ROLE */
 .role-2irmRk {
+  background: transparent;
   position: relative;
   display: flex;
   flex-direction: row-reverse;
