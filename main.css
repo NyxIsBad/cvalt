@@ -3081,6 +3081,10 @@ code {
   font-weight: 600;
 }
 
+.wrapper-3WhCwL.iconMention-1_KJ_B {
+  padding-left: 1.2rem;
+}
+
 .mentioned-xhSam7 {
   background-color: rgba(255, 255, 255, 0.05);
 }
@@ -5703,6 +5707,9 @@ textarea::-webkit-scrollbar {
 .popout-APcvZm .row-1ImlrZ:hover {
   background-color: var(--hover-color);
 }
+.popout-APcvZm .more-3VADkW {
+  color: var(--main-color);
+}
 
 /* STATUS PICKER */
 .animatorTop-2Y7x2r .menu-3sdvDG {
@@ -6029,7 +6036,7 @@ textarea::-webkit-scrollbar {
   background-color: var(--hover-color);
 }
 
-.datePicker--XZbmJ > .calendarPicker-2yf6Ci > .react-datepicker,
+.datePicker--XZbmJ > .calendarPicker-2yf6Ci .react-datepicker,
 .datePicker--XZbmJ > .calendarPicker-2yf6Ci .react-datepicker__header {
   background-color: transparent;
 }
