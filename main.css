@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! ClearVision v6.1.1 by the CV team */
+/*! ClearVision v6.1.2 by the CV team */
 /*! Powered by DiscordSelectors v0.2.7 */
 /* DEFAULT SETTINGS */
 :root {
@@ -274,7 +274,7 @@ textarea,
   text-shadow: 0 0 3px #000;
 }
 .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
-  content: "v6.1.1";
+  content: "v6.1.2";
   color: rgba(255, 255, 255, 0.3);
   font-family: var(--code-font);
   font-size: 10px;
@@ -331,7 +331,7 @@ textarea,
   text-shadow: 0 0 3px;
 }
 .typeMacOS-3EmCyP:after {
-  content: "6.1.1";
+  content: "6.1.2";
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1239,7 +1239,7 @@ textarea,
   transform: translateX(50%);
 }
 .container-3baos1:after {
-  content: "v6.1.1";
+  content: "v6.1.2";
   left: 50%;
   text-align: left;
   opacity: 0;
@@ -3569,6 +3569,9 @@ code {
 .contents-2mQqc9 > img[src*="213067580531933196"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Contributor";
 }
+.contents-2mQqc9 > img[src*="393900343135830016"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "CV Contributor";
+}
 .contents-2mQqc9 > img[src*="262989909411758080"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Donator";
 }
@@ -3636,9 +3639,6 @@ code {
   content: "CV Donator";
 }
 .contents-2mQqc9 > img[src*="107965218868457472"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "CV Donator";
-}
-.contents-2mQqc9 > img[src*="393900343135830016"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "CV Donator";
 }
 .contents-2mQqc9 > img[src*="183795147236966412"] ~ .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy::after {
