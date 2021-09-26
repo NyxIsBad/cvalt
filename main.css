@@ -4939,6 +4939,7 @@ code {
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
   background: var(--main-color);
+  color: #fff;
 }
 .appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
@@ -6508,7 +6509,11 @@ textarea::-webkit-scrollbar {
   color: #fff;
 }
 
-.wrapper-OxgYJ1 .scrollerBase-289Jih .listItems-1uJgMC .row-2psonc {
+.upsell-voV9AC {
+  background-color: transparent;
+}
+
+.row-2psonc {
   -moz-column-gap: 8px !important;
        column-gap: 8px !important;
 }
@@ -7050,13 +7055,11 @@ textarea::-webkit-scrollbar {
   color: #fff;
 }
 
-/* Message Deletion Confirmation*/
 .theme-dark .message-2qRu38 {
   background-color: transparent;
   box-shadow: 0 0 2px 2px var(--main-color);
 }
 
-/* Notifications Settings */
 .searchInput-5YMkDH {
   background-color: transparent;
 }
@@ -7069,7 +7072,6 @@ textarea::-webkit-scrollbar {
   background: var(--hover-color);
 }
 
-/* Custom Status Clear After Duration */
 .option-3KoAJB:focus, .option-3KoAJB:hover {
   background-color: var(--hover-color);
 }
@@ -7092,7 +7094,6 @@ textarea::-webkit-scrollbar {
   background-color: var(--main-color);
 }
 
-/* Reactions List  */
 .theme-dark .scroller-1-nKid,
 .theme-dark .reactors-Blmlhw {
   background-color: transparent;
@@ -7108,12 +7109,10 @@ textarea::-webkit-scrollbar {
   color: #fff;
 }
 
-/* Change Identity */
 .upsellCard-11CKVn {
   background-color: transparent;
 }
 
-/* Quickswitcher */
 .quickswitcher-3JagVE {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -7130,7 +7129,6 @@ textarea::-webkit-scrollbar {
   background-color: transparent !important;
 }
 
-/* Discord Nitro Gift Payment */
 .table-39R0Oe {
   background-color: transparent;
 }
@@ -7139,22 +7137,16 @@ textarea::-webkit-scrollbar {
   margin: 0 2px;
 }
 
-/* Server dropdown menu server boost */
-.theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am {
-  background-color: transparent;
+.theme-dark .contentWrapper-3WC1ID {
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.ctaBar-2UsjF2 {
-  background-color: rgba(0, 0, 0, 0.4);
+.pillIconOnline-2JGlqR {
+  background-color: var(--online-color);
 }
 
-.theme-dark .perk-2WeBWW, .theme-dark .barBackground-2EEiLw {
-  background-color: var(--backdrop-overlay);
-}
-
-.theme-dark .tierBody-16Chc9,
-.theme-dark .tierHeaderLocked-1s2JJz {
-  background-color: rgba(0, 0, 0, 0.4);
+.pillIconTotal-1BqTcA {
+  background-color: var(--offline-color);
 }
 
 /* SCREEN SHARE */
@@ -7187,6 +7179,43 @@ textarea::-webkit-scrollbar {
 }
 .theme-dark .selectorButton-EEUWed.selectorButtonSelected-t5V9On:not(.selectorButtonPremiumRequired-mKMbIu) {
   background-color: var(--main-color);
+}
+
+/* SERVER BOOST */
+.theme-dark .perksModal-fSYqOq {
+  background-color: transparent;
+}
+.theme-dark .ctaBar-2UsjF2 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.theme-dark .ctaBar-2UsjF2 .guildIcon-3raYf3 {
+  background-color: transparent;
+}
+.theme-dark .ctaBar-2UsjF2 .badgeIconWithoutSubscribers-3A9Xol {
+  color: #fff;
+  opacity: 0.8;
+}
+.theme-dark .ctaBar-2UsjF2 .giftIcon-ZxlWk5 {
+  color: currentColor;
+}
+.theme-dark .tierMarkerBackground-3q29am {
+  background-color: transparent;
+}
+.theme-dark .tierMarkerInProgress-24LMzJ,
+.theme-dark .barBackground-2EEiLw {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.theme-dark .tierBody-16Chc9,
+.theme-dark .tierHeaderLocked-1s2JJz,
+.theme-dark .perk-2WeBWW {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.theme-dark .tierHeaderLocked-1s2JJz {
+  color: rgba(255, 255, 255, 0.7);
+}
+.theme-dark .tierLock-3CSxSX {
+  color: #fff;
+  opacity: 0.3;
 }
 
 /* SETTINGS SIDEBAR */
@@ -7706,6 +7735,16 @@ textarea::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.theme-dark .noItemsIcon-21jJYT,
+.theme-dark .noItemsIcon-ygEH8z {
+  background-color: transparent;
+}
+.theme-dark .noItemsIcon-21jJYT > g > *,
+.theme-dark .noItemsIcon-ygEH8z > g > * {
+  fill-opacity: 0.8 !important;
+  stroke-opacity: 0.8 !important;
+}
+
 .scroller-9moviB {
   background-color: transparent;
 }
@@ -7777,9 +7816,10 @@ textarea::-webkit-scrollbar {
   box-shadow: 0 0 2px 2px var(--main-color);
 }
 .theme-dark .container-1nZlH6.recording-1H2dS7 {
+  color: #fff;
+  box-shadow: 0 0 2px 2px var(--main-color);
   -webkit-animation: cv-shadow-pulse 1s ease-in infinite;
           animation: cv-shadow-pulse 1s ease-in infinite;
-  box-shadow: 0 0 2px 2px var(--main-color);
 }
 
 .theme-dark .notDetected-33MY4s {
@@ -7792,6 +7832,12 @@ textarea::-webkit-scrollbar {
 .theme-dark .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {
   background-image: none;
   text-decoration: underline;
+}
+.theme-dark .addGamePopout-2RY8Ju {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.theme-dark .css-1yz4bi9-option:hover {
+  background-color: var(--hover-color);
 }
 .theme-dark .game-1ipmAa {
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.04);
@@ -7967,32 +8013,6 @@ textarea::-webkit-scrollbar {
 .theme-dark .tierHeaderUnlocked-3lTDnP,
 .theme-dark .tierBody-3aUxuc {
   background-color: rgba(0, 0, 0, 0.4);
-}
-
-.guildIcon-3raYf3 {
-  background-color: transparent;
-}
-
-.upsellFooter-3coAfO {
-  background-color: transparent;
-}
-
-.theme-dark .iconWrapper-3LVgIo {
-  background: var(--main-color);
-}
-
-.icon-TYbVk4 {
-  color: #fff;
-}
-.icon-TYbVk4.disabled-24YXy- {
-  color: #fff;
-}
-.icon-TYbVk4:hover {
-  background: var(--hover-color);
-}
-
-.icon-TYbVk4.disabled-24YXy-, .icon-TYbVk4.disabled-24YXy-:hover {
-  color: var(--hover-color);
 }
 
 .searchBar-1YE5UV {
@@ -9247,23 +9267,6 @@ textarea::-webkit-scrollbar {
 /* Invite Modal */
 .inviteRow-2L02ae:hover {
   background-color: rgba(255, 255, 255, 0.4);
-}
-
-/* Invite from web browser modal */
-.theme-dark .contentWrapper-3WC1ID {
-  background: var(--background-overlay);
-}
-
-.pill-1dHPfk {
-  background-color: transparent;
-}
-
-.lookLink-9FtZy-.colorBrand-3pXr91 {
-  color: var(--main-color);
-}
-
-.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
-  background-image: linear-gradient(0deg, transparent, transparent 1px, var(--main-color) 0, var(--main-color) 2px, transparent 0);
 }
 
 /* Dropdown voice call region changer */
