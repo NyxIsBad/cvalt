@@ -6531,7 +6531,7 @@ code {
 .menu-1QACrS .item-1OdjEX.focused-3qFvc8 .check-3HZJs4 {
   color: var(--main-color);
 }
-.menu-1QACrS .item-1OdjEX.colorDefault-CDqZdO:active {
+.menu-1QACrS .item-1OdjEX.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
   background-color: var(--hover-color);
   color: #fff;
   border-color: var(--hover-color);
