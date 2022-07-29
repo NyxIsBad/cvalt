@@ -6,7 +6,6 @@ To use this alternate import, replace the main import at the top of your theme f
 with 
 `@import url(https://nyxisbad.github.io/cvalt/main.css);`
 
-You will also have to replace the background image with `url(https://nyxisbad.github.io/cvalt/sapphire.jpg);` (or a custom image of your choice)
-and the home icon line `url(https://nyxisbad.github.io/cvalt/discord.svg);`
+If your background or home icon also is not showing up due to them being hosted on our github, you can also replace the background with `url(https://nyxisbad.github.io/cvalt/sapphire.jpg);` and the home icon line `url(https://nyxisbad.github.io/cvalt/discord.svg);`... or just customize them
 
 [The location where it should be](https://prnt.sc/zzeb3u)
