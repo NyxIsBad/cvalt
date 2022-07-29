@@ -1171,17 +1171,14 @@ textarea,
   border-radius: 3px;
   transition: all 0.15s ease-in-out;
 }
-.voiceUser-3nRK-K .avatarContainer-3FF_Km {
+.voiceUser-3nRK-K .avatarSpeaking-2pCGrZ {
   position: relative;
   transition: all 0.1s ease-in-out;
 }
-.voiceUser-3nRK-K .avatarContainer-3FF_Km:after {
+.voiceUser-3nRK-K .avatarSpeaking-2pCGrZ:after {
   content: "";
   position: absolute;
-  width: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
+  height: 1.7em;
   background: linear-gradient(to right, var(--main-color) 10%, transparent);
   opacity: 0.5;
   transition: all 0.1s ease-in-out, width 0.15s ease-in-out;
