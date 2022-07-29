@@ -1,5 +1,5 @@
 # cvalt
-An updated version of the clearvision main import for those living in countries where gitlab is blocked. I manually update a local copy of clearvision every time it updates and build it locally
+An updated version of the clearvision main import for those living in countries where gitlab is blocked. I manually update a local copy of clearvision every time it updates and build it locally, as github refuses to support pull mirroring
 
 To use this alternate import, replace the main import at the top of your theme file
 `@import url(https://clearvision.gitlab.io/v6/main.css);`
