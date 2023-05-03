@@ -1,5 +1,5 @@
 # cvalt
-GitLab is now being replaced by GitHub!!
+GitLab is now being replaced by GitHub, so this repo is now deprecated.
 
 Please replace the import at the top of your theme
 `@import url(https://clearvision.gitlab.io/v6/main.css);`
